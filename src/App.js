@@ -70,13 +70,15 @@ render() {
 
             <Decrement Decrement={this.Decrement} />
 
+            <br /><br />
+
       </div>
 
 
       <div>
 
             <InputField InputField={this.InputField} />
-
+            <br /><br />
             <Reset Reset={this.Reset} />
 
       </div>

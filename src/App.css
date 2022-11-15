@@ -1,9 +1,10 @@
 button{
   font-size: 35px;
-  color: indianred;
-  border: 5px solid black;
+  color: rgb(18, 83, 62);
+  border: 5px solid rgb(0, 0, 0);
   border-radius: 8px;
   margin: 5px;
+  background-color: rgb(244, 152, 240);
 
 }
 button:hover{
@@ -12,11 +13,20 @@ button:hover{
 
 #inputArea{
   font-size: 35px;
-  border: 3px solid indianred;
+  border: 5px solid rgb(28, 159, 105);
   border-radius: 8px;
+  color: rgb(28, 159, 105);
 }
 
 #count-output {
   font-size: 55px;
-  color: indianred;
+  color: rgb(28, 159, 105);
+}
+
+.container{
+  background-color: rgb(253, 253, 253);
+  max-width: 25%;
+  border: 5px solid rgb(28, 159, 105);
+  border-radius: 8px;
+  text-align: center;
 }
