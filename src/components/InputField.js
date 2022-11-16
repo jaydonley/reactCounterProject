@@ -23,7 +23,7 @@ class InputField extends Component {
         return(
             <form onSubmit={ this.handleSubmit }>
                 <input type="text"  id='inputArea' onChange={ this.handleChange } value={ this.state.count } /> <br />
-                <button>Add This ^ Many</button>
+                <button>Let's Add This ^ Many</button>
             </form>
         )
     }

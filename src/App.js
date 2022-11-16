@@ -82,6 +82,11 @@ render() {
             <Reset Reset={this.Reset} />
 
       </div>
+
+      <div id='containerThree'>
+        <h3 id='countMessage'>Let's learn to count!!!</h3>
+      </div>
+
     </div>
   )
 }
